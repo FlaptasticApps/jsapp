@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/blockjon/jsapp/issues"
   },
-  "homepage": "https://github.com/blockjon/jsapp#readme"
+  "homepage": "https://github.com/blockjon/jsapp#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
