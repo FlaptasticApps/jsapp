@@ -1,6 +1,10 @@
 const assert = require('chai').assert;
 
 describe('App', function() {
+  // beforeEach(function(x) {
+  //   this.skip();
+  // });
+
   it('Sanity check1', function() {
     assert.equal(1, 1);
   })
