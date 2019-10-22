@@ -14,4 +14,7 @@ describe('App', function() {
   it('Sanity check3', function() {
     assert.equal(3, 3);
   })
+  it('My broken test', function() {
+    assert.equal(1, 2);
+  }) 
 });
