@@ -38,7 +38,7 @@ jobs:
           name: Run Mocha With Flaptastic
           environment:
             FLAPTASTIC_ORGANIZATION_ID: "413862539681388708"
-            FLAPTASTIC_VERBOSITY: 1
+            FLAPTASTIC_VERBOSITY: 2
           command: |
             echo 'export FLAPTASTIC_BRANCH=$CIRCLE_BRANCH' >> $BASH_ENV
             echo 'export FLAPTASTIC_LINK=$CIRCLE_BUILD_URL' >> $BASH_ENV
